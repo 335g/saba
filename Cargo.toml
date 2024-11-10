@@ -1,5 +1,5 @@
 [workspace]
-members = []
+members = ["crates/saba-core"]
 resolver = "2"
 
 [workspace.dependencies]
