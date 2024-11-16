@@ -2,4 +2,7 @@
 members = ["crates/saba-core"]
 resolver = "2"
 
+
 [workspace.dependencies]
+saba_core = { path = "crates/saba_core" }
+# noli = { git = "https://github.com/hikalium/wasabi.git", branch = "for_saba" }
